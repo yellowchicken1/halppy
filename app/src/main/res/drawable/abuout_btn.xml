@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--设置按钮 默认 显示的图片-->
+    <item android:state_pressed="false" android:state_focused="false"
+        android:drawable="@drawable/btn_about1"/>
+
+    <!--设置按钮 按下显示 的图片-->
+    <item android:drawable="@drawable/btn_demo2" android:state_pressed="true"/>
+
+    <!--设置按钮 长按时 显示的图片-->
+    <item android:drawable="@drawable/btn_demo2" android:state_focused="true"/>
+</selector>
